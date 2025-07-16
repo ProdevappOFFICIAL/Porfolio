@@ -1,7 +1,7 @@
 import { BsReddit, BsTwitterX } from "react-icons/bs";
 import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaProductHunt } from "react-icons/fa";
 import { IoOpenOutline } from "react-icons/io5";
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { ExternalLink, Code, Smartphone, Globe, Zap } from 'lucide-react';
 
 const ProductShowcase = () => {
