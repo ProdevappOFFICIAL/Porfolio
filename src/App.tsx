@@ -117,28 +117,7 @@ const ProductShowcase = () => {
       image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=500&h=300&fit=crop&crop=center',
       metrics: { language: 'TypeScript', stars: '⭐' }
     },
-    {
-      id: 'learningdeck',
-      title: 'LearningDeck CBT Manager',
-      description: 'Hybrid online/offline exam management system for educational institutions and certification bodies. Advanced CBT platform.',
-      link: 'github.com/ProdevappOFFICIAL/LearningDeck-Advanced-CBT-Exam-Manager',
-      category: 'apps',
-      tags: ['Education', 'CBT', 'Exam Management', 'Hybrid App'],
-      gradient: 'from-indigo-600 via-purple-500 to-pink-600',
-      image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&h=300&fit=crop&crop=center',
-      metrics: { language: 'Multi-lang', stars: '⭐' }
-    },
-    {
-      id: 'lighthl',
-      title: 'LightHL',
-      description: 'GitHub alternative for hardware developers, researchers, and engineers. Specialized platform for hardware development collaboration.',
-      link: 'github.com/Light-Hardware-Labs/LightHL',
-      category: 'tools',
-      tags: ['Hardware', 'Collaboration', 'Version Control', 'Engineering'],
-      gradient: 'from-yellow-600 via-orange-500 to-red-600',
-      image: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=500&h=300&fit=crop&crop=center',
-      metrics: { language: 'Multi-lang', stars: '⭐' }
-    }
+  
   ];
 
   const filteredProducts = activeTab === 'all'
