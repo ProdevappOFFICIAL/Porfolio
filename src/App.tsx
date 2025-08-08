@@ -1,7 +1,7 @@
 import { BsReddit, BsTwitterX } from "react-icons/bs";
 import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaProductHunt } from "react-icons/fa";
 import { useState, useEffect } from 'react';
-import { ExternalLink, Code, Smartphone, Globe, Zap, Mail, MapPin, Calendar, Award, TrendingUp, BookOpen, Coffee, GitBranch, Star } from 'lucide-react';
+import { ExternalLink, Code, Smartphone, Globe, Zap, Mail, MapPin, Calendar, Award, TrendingUp,  Coffee, GitBranch, Star } from 'lucide-react';
 
 // Professional Stats Component
 const StatsSection = () => {
